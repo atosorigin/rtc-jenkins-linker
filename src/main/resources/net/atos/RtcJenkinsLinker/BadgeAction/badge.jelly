@@ -1,0 +1,8 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:l="/lib/layout" xmlns:st="jelly:stapler">
+
+    <a href="${it.link}" target="_blank">
+        <img src="${it.iconPath}" width="16" height="16" alt="${it.text}" title="${it.text}"/>
+    </a>
+
+</j:jelly>

@@ -1,0 +1,6 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:st="jelly:stapler">
+    <t:summary icon="//plugin/rjl/images/24x24/RTC_24.png">
+        <a href="${it.link}" target="_blank">${it.text}</a>
+    </t:summary>
+</j:jelly>
