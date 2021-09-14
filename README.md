@@ -5,7 +5,10 @@
 This plugin bridges the gap between Jenkins and RTC. By adding the functionality to associate RTC Ticket with Jenkins builds and vice versa.
 
 ## How to build
+
 You can build the plugin with gradle task jpi.
+
+You'll need to place the (extracted) RTC Plain Java API JARs in `lib` beforehand, see README there.
 
 ```
 gradle clean jpi
